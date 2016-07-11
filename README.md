@@ -1,10 +1,12 @@
-# Flarum Google Authenticator
-Allows users to login using their Google Account.
+# Flarum Discord Authenticator
+Allows users to login using their Discord account.
+
+## This repository is still in development! Do not use in production.
 
 ## Installation
 To install, use composer:
 ```
-composer require johnhearfield/flarum-ext-oauth-google
+composer require pnobbe/flarum-ext-oauth-discord
 ```
 ## Usage
 * Install extension via Composer / Packagist
@@ -14,10 +16,7 @@ composer require johnhearfield/flarum-ext-oauth-google
 ### Setting up Google OAuth 2.0
 Follow these instruction to generate your applications *Client ID* and *Client Secret*
 
-https://support.google.com/cloud/answer/6158849?hl=en
+https://discordapp.com/developers/docs/topics/oauth2
 
-**Optional** *Hosted domain*
 
-The *hd* paramater limits sign-in to a particular Google Apps hosted domain.
 
-https://developers.google.com/identity/protocols/OpenIDConnect#authenticationuriparameters
