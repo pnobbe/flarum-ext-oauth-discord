@@ -1,9 +1,9 @@
 <?php
 
-use JohnHearfield\Auth\Google\Listener;
+use pnobbe\Auth\Discord\Listener;
 use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events) {
     $events->subscribe(Listener\AddClientAssets::class);
-    $events->subscribe(Listener\AddGoogleAuthRoute::class);
+    $events->subscribe(Listener\AddDiscordAuthRoute::class);
 };
