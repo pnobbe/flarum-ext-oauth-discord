@@ -1,9 +1,9 @@
 'use strict';
 
-System.register('johnhearfield/auth-google/components/GoogleSettingsModal', ['flarum/components/SettingsModal', 'flarum/app'], function (_export, _context) {
+System.register('pnobbe/auth-discord/components/DiscordSettingsModal', ['flarum/components/SettingsModal', 'flarum/app'], function (_export, _context) {
   "use strict";
 
-  var SettingsModal, app, GoogleSettingsModal;
+  var SettingsModal, app, DiscordSettingsModal;
   return {
     setters: [function (_flarumComponentsSettingsModal) {
       SettingsModal = _flarumComponentsSettingsModal.default;
@@ -11,23 +11,23 @@ System.register('johnhearfield/auth-google/components/GoogleSettingsModal', ['fl
       app = _flarumApp.default;
     }],
     execute: function () {
-      GoogleSettingsModal = function (_SettingsModal) {
-        babelHelpers.inherits(GoogleSettingsModal, _SettingsModal);
+      DiscordSettingsModal = function (_SettingsModal) {
+        babelHelpers.inherits(DiscordSettingsModal, _SettingsModal);
 
-        function GoogleSettingsModal() {
-          babelHelpers.classCallCheck(this, GoogleSettingsModal);
-          return babelHelpers.possibleConstructorReturn(this, Object.getPrototypeOf(GoogleSettingsModal).apply(this, arguments));
+        function DiscordSettingsModal() {
+          babelHelpers.classCallCheck(this, DiscordSettingsModal);
+          return babelHelpers.possibleConstructorReturn(this, Object.getPrototypeOf(DiscordSettingsModal).apply(this, arguments));
         }
 
-        babelHelpers.createClass(GoogleSettingsModal, [{
+        babelHelpers.createClass(DiscordSettingsModal, [{
           key: 'className',
           value: function className() {
-            return 'GoogleSettingsModal Modal--small';
+            return 'DiscordSettingsModal Modal--small';
           }
         }, {
           key: 'title',
           value: function title() {
-            return app.translator.trans('johnhearfield-oauth-google.admin.google_settings.title');
+            return app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.title');
           }
         }, {
           key: 'form',
@@ -38,56 +38,56 @@ System.register('johnhearfield/auth-google/components/GoogleSettingsModal', ['fl
               m(
                 'label',
                 null,
-                app.translator.trans('johnhearfield-oauth-google.admin.google_settings.client_id_label')
+                app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.client_id_label')
               ),
-              m('input', { className: 'FormControl', bidi: this.setting('johnhearfield-oauth-google.app_id') })
+              m('input', { className: 'FormControl', bidi: this.setting('pnobbe-oauth-discord.app_id') })
             ), m(
               'div',
               { className: 'Form-group' },
               m(
                 'label',
                 null,
-                app.translator.trans('johnhearfield-oauth-google.admin.google_settings.client_secret_label')
+                app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.client_secret_label')
               ),
-              m('input', { className: 'FormControl', bidi: this.setting('johnhearfield-oauth-google.app_secret') })
+              m('input', { className: 'FormControl', bidi: this.setting('pnobbe-oauth-discord.app_secret') })
             ), m(
               'div',
               { className: 'Form-group' },
               m(
                 'label',
                 null,
-                app.translator.trans('johnhearfield-oauth-google.admin.google_settings.hosted_domain_label')
+                app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.hosted_domain_label')
               ),
-              m('input', { className: 'FormControl', bidi: this.setting('johnhearfield-oauth-google.app_domain') })
+              m('input', { className: 'FormControl', bidi: this.setting('pnobbe-oauth-discord.app_domain') })
             )];
           }
         }]);
-        return GoogleSettingsModal;
+        return DiscordSettingsModal;
       }(SettingsModal);
 
-      _export('default', GoogleSettingsModal);
+      _export('default', DiscordSettingsModal);
     }
   };
 });;
 'use strict';
 
-System.register('johnhearfield/auth-google/main', ['flarum/extend', 'flarum/app', 'johnhearfield/auth-google/components/GoogleSettingsModal'], function (_export, _context) {
+System.register('pnobbe/auth-discord/main', ['flarum/extend', 'flarum/app', 'pnobbe/auth-discord/components/DiscordSettingsModal'], function (_export, _context) {
   "use strict";
 
-  var extend, app, GoogleSettingsModal;
+  var extend, app, DiscordSettingsModal;
   return {
     setters: [function (_flarumExtend) {
       extend = _flarumExtend.extend;
     }, function (_flarumApp) {
       app = _flarumApp.default;
-    }, function (_johnhearfieldAuthGoogleComponentsGoogleSettingsModal) {
-      GoogleSettingsModal = _johnhearfieldAuthGoogleComponentsGoogleSettingsModal.default;
+    }, function (_pnobbeAuthDiscordComponentsDiscordSettingsModal) {
+      DiscordSettingsModal = _pnobbeAuthDiscordComponentsDiscordSettingsModal.default;
     }],
     execute: function () {
 
-      app.initializers.add('johnhearfield/auth-google', function (app) {
-        app.extensionSettings['johnhearfield-oauth-google'] = function () {
-          return app.modal.show(new GoogleSettingsModal());
+      app.initializers.add('pnobbe/auth-discord', function (app) {
+        app.extensionSettings['pnobbe-oauth-discord'] = function () {
+          return app.modal.show(new DiscordSettingsModal());
         };
       });
     }

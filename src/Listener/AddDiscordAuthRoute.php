@@ -1,11 +1,11 @@
 <?php
 
-namespace JohnHearfield\Auth\Google\Listener;
+namespace pnobbe\Auth\Discord\Listener;
 
 use Flarum\Event\ConfigureForumRoutes;
 use Illuminate\Contracts\Events\Dispatcher;
 
-class AddGoogleAuthRoute
+class AddDiscordAuthRoute
 {
     /**
      * @param Dispatcher $events
@@ -20,6 +20,6 @@ class AddGoogleAuthRoute
      */
     public function configureForumRoutes(ConfigureForumRoutes $event)
     {
-        $event->get('/auth/google', 'auth.google', 'JohnHearfield\Auth\Google\GoogleAuthController');
+        $event->get('/auth/discord', 'auth.discord', 'pnobbe\Auth\Discord\DiscordAuthController');
     }
 }

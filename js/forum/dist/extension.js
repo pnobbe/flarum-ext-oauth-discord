@@ -1,6 +1,6 @@
 'use strict';
 
-System.register('johnhearfield/auth-google/main', ['flarum/extend', 'flarum/app', 'flarum/components/LogInButtons', 'flarum/components/LogInButton'], function (_export, _context) {
+System.register('pnobbe/auth-discord/main', ['flarum/extend', 'flarum/app', 'flarum/components/LogInButtons', 'flarum/components/LogInButton'], function (_export, _context) {
   "use strict";
 
   var extend, app, LogInButtons, LogInButton;
@@ -16,15 +16,15 @@ System.register('johnhearfield/auth-google/main', ['flarum/extend', 'flarum/app'
     }],
     execute: function () {
 
-      app.initializers.add('johnhearfield/auth-google', function () {
+      app.initializers.add('pnobbe/auth-discord', function () {
         extend(LogInButtons.prototype, 'items', function (items) {
-          items.add('google', m(
+          items.add('discord', m(
             LogInButton,
             {
-              className: 'Button LogInButton--google',
-              icon: 'google',
-              path: '/auth/google' },
-            app.translator.trans('johnhearfield-oauth-google.forum.log_in.with_google_button')
+              className: 'Button LogInButton--discord',
+              icon: 'discord',
+              path: '/auth/discord' },
+            app.translator.trans('pnobbe-oauth-discord.forum.log_in.with_discord_button')
           ));
         });
       });

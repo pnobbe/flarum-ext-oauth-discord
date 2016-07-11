@@ -3,14 +3,14 @@ import app from 'flarum/app';
 import LogInButtons from 'flarum/components/LogInButtons';
 import LogInButton from 'flarum/components/LogInButton';
 
-app.initializers.add('johnhearfield/auth-google', () => {
+app.initializers.add('pnobbe/auth-discord', () => {
   extend(LogInButtons.prototype, 'items', function(items) {
-    items.add('google',
+    items.add('discord',
       <LogInButton
-        className="Button LogInButton--google"
-        icon="google"
-        path="/auth/google">
-        {app.translator.trans('johnhearfield-oauth-google.forum.log_in.with_google_button')}
+        className="Button LogInButton--discord"
+        icon="discord"
+        path="/auth/discord">
+        {app.translator.trans('pnobbe-oauth-discord.forum.log_in.with_discord_button')}
       </LogInButton>
     );
   });

@@ -1,6 +1,6 @@
 <?php
 
-namespace JohnHearfield\Auth\Google\Listener;
+namespace pnobbe\Auth\Discord\Listener;
 
 use DirectoryIterator;
 use Flarum\Event\ConfigureClientView;
@@ -28,14 +28,14 @@ class AddClientAssets
                 __DIR__.'/../../js/forum/dist/extension.js',
                 __DIR__.'/../../less/forum/extension.less'
             ]);
-            $event->addBootstrapper('johnhearfield/auth-google/main');
+            $event->addBootstrapper('pnobbe/auth-discord/main');
         }
 
         if ($event->isAdmin()) {
             $event->addAssets([
                 __DIR__.'/../../js/admin/dist/extension.js'
             ]);
-            $event->addBootstrapper('johnhearfield/auth-google/main');
+            $event->addBootstrapper('pnobbe/auth-discord/main');
         }
     }
 

@@ -2,7 +2,7 @@ var gulp = require('flarum-gulp');
 
 gulp({
   modules: {
-    'johnhearfield/auth-google': [
+    'pnobbe/auth-discord': [
       'src/**/*.js'
     ]
   }

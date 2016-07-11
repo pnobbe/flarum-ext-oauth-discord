@@ -1,12 +1,12 @@
-johnhearfield-oauth-google:
+pnobbe-oauth-discord:
 
   admin:
-    google_settings:
-      title: "Google Settings"
+    discord_settings:
+      title: "Discord Settings"
       client_id_label: "Client ID"
       client_secret_label: "Client Secret"
       hosted_domain_label: "Hosted Domain"
 
   forum:
     log_in:
-      with_google_button: "Login with Google"
+      with_discord_button: "Login with Discord"
