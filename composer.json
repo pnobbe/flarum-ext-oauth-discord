@@ -1,0 +1,37 @@
+{
+    "name": "johnhearfield/flarum-ext-oauth-google",
+    "description": "Allow users to log in with Google.",
+    "type": "flarum-extension",
+    "keywords": ["authentication"],
+    "license": "GPL-3.0+",
+    "version": "v0.1.0-beta.8.1",
+    "authors": [
+        {
+            "name": "John Hearfield",
+            "email": "dev@findingjohn.xyz"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/johnhearfield/flarum-ext-oauth-google/issues",
+        "source": "https://github.com/johnhearfield/flarum-ext-oauth-google"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5",
+        "league/oauth2-google": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JohnHearfield\\Auth\\Google\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Google Login",
+            "icon": {
+                "name": "google",
+                "backgroundColor": "#D13E32",
+                "color": "#fff"
+            }
+        }
+    }
+}
