@@ -1,7 +1,7 @@
+### !! *This repository is still in development! Do not use in production.* !!
+
 # Flarum Discord Authenticator
 Allows users to login using their Discord account.
-
-### *This repository is still in development! Do not use in production.*
 
 ## Installation
 To install, use composer:
