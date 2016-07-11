@@ -1,19 +1,19 @@
 {
-    "name": "johnhearfield/flarum-ext-oauth-google",
-    "description": "Allow users to log in with Google.",
+    "name": "pnobbe/flarum-ext-oauth-discord",
+    "description": "Allow users to log in with Discord.",
     "type": "flarum-extension",
     "keywords": ["authentication"],
     "license": "GPL-3.0+",
     "version": "v0.1.0-beta.8.1",
     "authors": [
         {
-            "name": "John Hearfield",
-            "email": "dev@findingjohn.xyz"
+            "name": "Patrick Nobbe",
+            "email": "patrick.nobbe@hotmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/johnhearfield/flarum-ext-oauth-google/issues",
-        "source": "https://github.com/johnhearfield/flarum-ext-oauth-google"
+        "issues": "https://github.com/pnobbe/flarum-ext-oauth-discord/issues",
+        "source": "https://github.com/pnobbe/flarum-ext-oauth-discord"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.5",
@@ -21,14 +21,14 @@
     },
     "autoload": {
         "psr-4": {
-            "JohnHearfield\\Auth\\Google\\": "src/"
+            "pnobbe\\Auth\\Discord\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Google Login",
+            "title": "Discord Login",
             "icon": {
-                "name": "google",
+                "name": "discord",
                 "backgroundColor": "#D13E32",
                 "color": "#fff"
             }
