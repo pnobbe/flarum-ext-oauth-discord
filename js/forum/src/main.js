@@ -8,7 +8,6 @@ app.initializers.add('pnobbe/auth-discord', () => {
     items.add('discord',
       <LogInButton
         className="Button LogInButton--discord"
-        icon="discord"
         path="/auth/discord">
         {app.translator.trans('pnobbe-oauth-discord.forum.log_in.with_discord_button')}
       </LogInButton>
