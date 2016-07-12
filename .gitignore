@@ -49,3 +49,4 @@ Temporary Items
 # Dependency directories
 vendor
 node_modules
+.idea/workspace.xml

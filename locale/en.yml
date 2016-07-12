@@ -5,7 +5,7 @@ pnobbe-oauth-discord:
       title: "Discord Settings"
       client_id_label: "Client ID"
       client_secret_label: "Client Secret"
-      hosted_domain_label: "Hosted Domain"
+      hosted_domain_label: "Hosted Domain (Optional)"
 
   forum:
     log_in:
