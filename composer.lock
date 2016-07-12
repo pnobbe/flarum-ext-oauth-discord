@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "434bada831db3719fb53a62ec26e96f6",
-    "content-hash": "3a85aeca283c745375ebcaaa90029e38",
+    "hash": "283131e884b0141db00df0b12f90e519",
+    "content-hash": "0c50ab47821bd0068b9116363024e54b",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -2301,48 +2301,57 @@
             "time": "2016-04-03 05:47:09"
         },
         {
-            "name": "pnobbe/oauth2-discord-revised",
+            "name": "pnobbe/oauth2-discord",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "1c3977a4ec8392270e2b094317be5da5d32f60bd"
+                "reference": "cd4ddac28350476cf6a482de80a0b7fbce3480fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/1c3977a4ec8392270e2b094317be5da5d32f60bd",
-                "reference": "1c3977a4ec8392270e2b094317be5da5d32f60bd",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/cd4ddac28350476cf6a482de80a0b7fbce3480fa",
+                "reference": "cd4ddac28350476cf6a482de80a0b7fbce3480fa",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.1.*",
-                "illuminate/support": "5.1.*",
-                "league/oauth2-client": "~1.0"
+                "league/oauth2-client": "~1.0",
+                "php": ">=5.5.0"
             },
             "require-dev": {
-                "mockery/mockery": "^0.9.5",
+                "mockery/mockery": "~0.9",
                 "phpunit/phpunit": "~4.0",
-                "satooshi/php-coveralls": "^1.0",
-                "symfony/var-dumper": "^3.1"
+                "squizlabs/php_codesniffer": "~2.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
-                    "Discord\\OAuth\\": "src/Discord"
+                    "League\\OAuth2\\Client\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "authors": [
                 {
-                    "name": "David Cole",
-                    "email": "david@team-reflex.com"
+                    "name": "Patrick Nobbe",
+                    "email": "patrick.nobbe@hotmail.com",
+                    "homepage": "https://github.com/pnobbe"
                 }
             ],
-            "description": "OAuth2 client for authenticating with the Discord API servers",
-            "time": "2016-07-12 11:47:10"
+            "description": "Discord OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "authorisation",
+                "authorization",
+                "client",
+                "discord",
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2016-07-12 13:35:39"
         },
         {
             "name": "psr/http-message",
@@ -3147,7 +3156,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "pnobbe/oauth2-discord-revised": 20
+        "pnobbe/oauth2-discord": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
