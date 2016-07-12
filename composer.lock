@@ -2306,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "3100e7f294a5d9c7486c8c0b26a23f7fb768cdea"
+                "reference": "b24a38798ef6f4aa81b6e2bcd39feefc4f2784df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/3100e7f294a5d9c7486c8c0b26a23f7fb768cdea",
-                "reference": "3100e7f294a5d9c7486c8c0b26a23f7fb768cdea",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/b24a38798ef6f4aa81b6e2bcd39feefc4f2784df",
+                "reference": "b24a38798ef6f4aa81b6e2bcd39feefc4f2784df",
                 "shasum": ""
             },
             "require": {
@@ -2342,7 +2342,7 @@
                 }
             ],
             "description": "OAuth2 client for authenticating with the Discord API servers",
-            "time": "2016-07-12 11:10:35"
+            "time": "2016-07-12 11:19:14"
         },
         {
             "name": "psr/http-message",
