@@ -2100,16 +2100,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.21.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "7b08ec6f75791e130012f206e3f7b0e76e18e3d7"
+                "reference": "36c134b53c21a137d450c86a27046022d98574fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/7b08ec6f75791e130012f206e3f7b0e76e18e3d7",
-                "reference": "7b08ec6f75791e130012f206e3f7b0e76e18e3d7",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/36c134b53c21a137d450c86a27046022d98574fd",
+                "reference": "36c134b53c21a137d450c86a27046022d98574fd",
                 "shasum": ""
             },
             "require": {
@@ -2120,6 +2120,11 @@
                 "phpunit/phpunit": "~4.0|~5.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.22-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Carbon\\": "src/Carbon/"
@@ -2143,7 +2148,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2015-11-04 20:07:17"
+            "time": "2016-06-27 17:44:29"
         },
         {
             "name": "nikic/fast-route",
@@ -2301,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "3c5c245635162e4e6d40ae49b8146f7b3dacd60f"
+                "reference": "3100e7f294a5d9c7486c8c0b26a23f7fb768cdea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/3c5c245635162e4e6d40ae49b8146f7b3dacd60f",
-                "reference": "3c5c245635162e4e6d40ae49b8146f7b3dacd60f",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/3100e7f294a5d9c7486c8c0b26a23f7fb768cdea",
+                "reference": "3100e7f294a5d9c7486c8c0b26a23f7fb768cdea",
                 "shasum": ""
             },
             "require": {
@@ -2337,7 +2342,7 @@
                 }
             ],
             "description": "OAuth2 client for authenticating with the Discord API servers",
-            "time": "2016-07-11 16:30:35"
+            "time": "2016-07-12 11:10:35"
         },
         {
             "name": "psr/http-message",
