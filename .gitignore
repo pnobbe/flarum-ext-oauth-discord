@@ -50,3 +50,4 @@ Temporary Items
 vendor
 node_modules
 .idea/workspace.xml
+.idea/flarum-ext-oauth-discord.iml

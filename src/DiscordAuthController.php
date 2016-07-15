@@ -48,7 +48,7 @@ class DiscordAuthController extends AbstractOAuth2Controller
         return [
             'scope' =>
                 [
-                    'identify'
+                    'email'
                 ]
         ];    }
 
