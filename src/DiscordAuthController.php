@@ -68,7 +68,8 @@ class DiscordAuthController extends AbstractOAuth2Controller
     protected function getSuggestions(ResourceOwnerInterface $resourceOwner)
     {
         return [
-            'username' => $resourceOwner->getFirstName(),
+            'username' => $resourceOwner->getNickname(),
+            'avatarUrl' => $resourceOwner->getPictureUrl()
         ];
     }
 }

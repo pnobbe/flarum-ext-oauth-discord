@@ -189,12 +189,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "51010cb7802c1fc30471eee3d8aa4ea4302d1398"
+                "reference": "39129b31a709068bcb4f245ed71723244733b0d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/51010cb7802c1fc30471eee3d8aa4ea4302d1398",
-                "reference": "51010cb7802c1fc30471eee3d8aa4ea4302d1398",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/39129b31a709068bcb4f245ed71723244733b0d3",
+                "reference": "39129b31a709068bcb4f245ed71723244733b0d3",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +250,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-06-29 15:54:19"
+            "time": "2016-07-15 14:52:32"
         },
         {
             "name": "doctrine/collections",
@@ -258,12 +258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "315485ae4bc22affb75be25709740949460b851a"
+                "reference": "a58af3fd579f850c09a41d4c9fc5be76e9c6a2ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/315485ae4bc22affb75be25709740949460b851a",
-                "reference": "315485ae4bc22affb75be25709740949460b851a",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/a58af3fd579f850c09a41d4c9fc5be76e9c6a2ab",
+                "reference": "a58af3fd579f850c09a41d4c9fc5be76e9c6a2ab",
                 "shasum": ""
             },
             "require": {
@@ -316,7 +316,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2016-06-16 12:51:43"
+            "time": "2016-07-15 10:02:57"
         },
         {
             "name": "doctrine/common",
@@ -1775,12 +1775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "354023f2cb0eb6a4ca62dfe89959be7c78ab9f3e"
+                "reference": "00472d18250e953c0d82ce66d44ace0d2e0399bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/354023f2cb0eb6a4ca62dfe89959be7c78ab9f3e",
-                "reference": "354023f2cb0eb6a4ca62dfe89959be7c78ab9f3e",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/00472d18250e953c0d82ce66d44ace0d2e0399bf",
+                "reference": "00472d18250e953c0d82ce66d44ace0d2e0399bf",
                 "shasum": ""
             },
             "require": {
@@ -1850,7 +1850,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-07-11 07:44:22"
+            "time": "2016-07-13 11:24:32"
         },
         {
             "name": "league/oauth2-client",
@@ -2734,12 +2734,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "a52a882549efdd48e80816e3cf5edd25f6ac2fcd"
+                "reference": "997cab63d81d61c6421c4dd49cc0fa588662b340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/a52a882549efdd48e80816e3cf5edd25f6ac2fcd",
-                "reference": "a52a882549efdd48e80816e3cf5edd25f6ac2fcd",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/997cab63d81d61c6421c4dd49cc0fa588662b340",
+                "reference": "997cab63d81d61c6421c4dd49cc0fa588662b340",
                 "shasum": ""
             },
             "require": {
@@ -2782,7 +2782,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-10 09:40:48"
+            "time": "2016-07-13 10:53:11"
         },
         {
             "name": "symfony/polyfill-mbstring",
