@@ -189,12 +189,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "39129b31a709068bcb4f245ed71723244733b0d3"
+                "reference": "fe68e4f78804684e31cce17590b0bd9f088db1b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/39129b31a709068bcb4f245ed71723244733b0d3",
-                "reference": "39129b31a709068bcb4f245ed71723244733b0d3",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/fe68e4f78804684e31cce17590b0bd9f088db1b0",
+                "reference": "fe68e4f78804684e31cce17590b0bd9f088db1b0",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +250,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-07-15 14:52:32"
+            "time": "2016-07-15 15:57:08"
         },
         {
             "name": "doctrine/collections",
@@ -397,12 +397,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "17f50b86ef2b78d4331e60b2caead3829505c350"
+                "reference": "272b87213e0203bdf2f438102aed2c7b2919aadf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/17f50b86ef2b78d4331e60b2caead3829505c350",
-                "reference": "17f50b86ef2b78d4331e60b2caead3829505c350",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/272b87213e0203bdf2f438102aed2c7b2919aadf",
+                "reference": "272b87213e0203bdf2f438102aed2c7b2919aadf",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +460,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2016-07-11 12:36:11"
+            "time": "2016-07-15 21:22:59"
         },
         {
             "name": "doctrine/inflector",
@@ -763,12 +763,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "10a49d5e1b8729c5e05cbdbf475b38b7099eb35e"
+                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/10a49d5e1b8729c5e05cbdbf475b38b7099eb35e",
-                "reference": "10a49d5e1b8729c5e05cbdbf475b38b7099eb35e",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/3f808fba627f2c5b69e2501217bf31af349c1427",
+                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427",
                 "shasum": ""
             },
             "require": {
@@ -817,7 +817,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-07-01 23:54:08"
+            "time": "2016-07-15 17:22:37"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1565,12 +1565,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "469b446ea8e5b5554fac903f9fe87be8beff768c"
+                "reference": "8dc810083f5c0dc889757d62be65a7307d92a30b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/469b446ea8e5b5554fac903f9fe87be8beff768c",
-                "reference": "469b446ea8e5b5554fac903f9fe87be8beff768c",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/8dc810083f5c0dc889757d62be65a7307d92a30b",
+                "reference": "8dc810083f5c0dc889757d62be65a7307d92a30b",
                 "shasum": ""
             },
             "require": {
@@ -1605,7 +1605,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "http://laravel.com",
-            "time": "2016-05-28 21:16:16"
+            "time": "2016-07-18 11:06:23"
         },
         {
             "name": "intervention/image",
@@ -1775,12 +1775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "00472d18250e953c0d82ce66d44ace0d2e0399bf"
+                "reference": "a76afa4035931be0c78ca8efc6abf3902362f437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/00472d18250e953c0d82ce66d44ace0d2e0399bf",
-                "reference": "00472d18250e953c0d82ce66d44ace0d2e0399bf",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a76afa4035931be0c78ca8efc6abf3902362f437",
+                "reference": "a76afa4035931be0c78ca8efc6abf3902362f437",
                 "shasum": ""
             },
             "require": {
@@ -1850,7 +1850,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-07-13 11:24:32"
+            "time": "2016-07-18 12:22:57"
         },
         {
             "name": "league/oauth2-client",
@@ -2306,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "cd4ddac28350476cf6a482de80a0b7fbce3480fa"
+                "reference": "b89e7a61356f0acd13c5e1e48b7167993a641138"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/cd4ddac28350476cf6a482de80a0b7fbce3480fa",
-                "reference": "cd4ddac28350476cf6a482de80a0b7fbce3480fa",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/b89e7a61356f0acd13c5e1e48b7167993a641138",
+                "reference": "b89e7a61356f0acd13c5e1e48b7167993a641138",
                 "shasum": ""
             },
             "require": {
@@ -2351,7 +2351,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-07-12 13:35:39"
+            "time": "2016-07-18 15:08:38"
         },
         {
             "name": "psr/http-message",
@@ -2912,12 +2912,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "b57a8d1b316b6aaf6dc77852fed4ddb8adac77a7"
+                "reference": "0ceab136f43ed9d3e97b3eea32a7855dc50c121d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/b57a8d1b316b6aaf6dc77852fed4ddb8adac77a7",
-                "reference": "b57a8d1b316b6aaf6dc77852fed4ddb8adac77a7",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0ceab136f43ed9d3e97b3eea32a7855dc50c121d",
+                "reference": "0ceab136f43ed9d3e97b3eea32a7855dc50c121d",
                 "shasum": ""
             },
             "require": {
@@ -2953,7 +2953,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-01 06:55:04"
+            "time": "2016-07-17 09:06:15"
         },
         {
             "name": "tobscure/json-api",
