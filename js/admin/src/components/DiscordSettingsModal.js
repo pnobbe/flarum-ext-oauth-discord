@@ -20,7 +20,7 @@ export default class DiscordSettingsModal extends SettingsModal {
       <div className="Form-group">
         <label>{app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.client_secret_label')}</label>
         <input className="FormControl" bidi={this.setting('pnobbe-oauth-discord.app_secret')}/>
-      </div>,
+      </div>
     ];
   }
 }
