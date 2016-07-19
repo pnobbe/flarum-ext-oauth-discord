@@ -9,7 +9,7 @@ import SignUpModal from 'flarum/components/SignUpModal';
 AvatarEditor.controlItems.empty();
 AvatarEditor.quickUpload = new function() {};
 
-app.initializers.add('pnobbe/auth-discord', () => {
+app.initializers.add('pnobbe/auth/discord', () => {
   extend(LogInButtons.prototype, 'items', function(items) {
     items.add('discord',
       <LogInButton
@@ -19,9 +19,4 @@ app.initializers.add('pnobbe/auth-discord', () => {
       </LogInButton>
     );
   });
-  SignUpModal.prototype.body = function() {
-    return [
-          this.props.token ? '' : <LogInButtons/>
-    ];
-  };
 });
