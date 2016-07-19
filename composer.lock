@@ -1166,12 +1166,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "febb39b85da3cb68ff7538c503fbabc830dd8560"
+                "reference": "4fc6d369d90d054efda1e9577b196ca452b91446"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/febb39b85da3cb68ff7538c503fbabc830dd8560",
-                "reference": "febb39b85da3cb68ff7538c503fbabc830dd8560",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/4fc6d369d90d054efda1e9577b196ca452b91446",
+                "reference": "4fc6d369d90d054efda1e9577b196ca452b91446",
                 "shasum": ""
             },
             "require": {
@@ -1218,7 +1218,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2016-07-01 23:28:57"
+            "time": "2016-07-18 15:56:12"
         },
         {
             "name": "illuminate/events",
@@ -2306,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "b89e7a61356f0acd13c5e1e48b7167993a641138"
+                "reference": "63244a3bc4ce94116582c9ad2e064aff4cb4dd24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/b89e7a61356f0acd13c5e1e48b7167993a641138",
-                "reference": "b89e7a61356f0acd13c5e1e48b7167993a641138",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/63244a3bc4ce94116582c9ad2e064aff4cb4dd24",
+                "reference": "63244a3bc4ce94116582c9ad2e064aff4cb4dd24",
                 "shasum": ""
             },
             "require": {
@@ -2351,7 +2351,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-07-18 15:08:38"
+            "time": "2016-07-19 15:41:04"
         },
         {
             "name": "psr/http-message",
@@ -2568,12 +2568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "139e3be2f16f19babbebcaaed0f6771d98bc9307"
+                "reference": "cec9c5dd2939b420f11c5db64989d7320634996e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/139e3be2f16f19babbebcaaed0f6771d98bc9307",
-                "reference": "139e3be2f16f19babbebcaaed0f6771d98bc9307",
+                "url": "https://api.github.com/repos/symfony/console/zipball/cec9c5dd2939b420f11c5db64989d7320634996e",
+                "reference": "cec9c5dd2939b420f11c5db64989d7320634996e",
                 "shasum": ""
             },
             "require": {
@@ -2620,7 +2620,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-30 18:17:12"
+            "time": "2016-07-19 10:40:24"
         },
         {
             "name": "symfony/debug",
