@@ -20,8 +20,8 @@ System.register('pnobbe/auth-discord/main', ['flarum/extend', 'flarum/app', 'fla
     }],
     execute: function () {
 
-      AvatarEditor.controlItems.empty();
-      AvatarEditor.quickUpload = new function () {}();
+      AvatarEditor.controlItems = null;
+      AvatarEditor.quickUpload = null;
 
       app.initializers.add('pnobbe/auth-discord', function () {
         extend(LogInButtons.prototype, 'items', function (items) {

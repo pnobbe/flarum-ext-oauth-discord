@@ -6,8 +6,8 @@ import AvatarEditor from 'flarum/components/AvatarEditor';
 import SignUpModal from 'flarum/components/SignUpModal';
 
 
-AvatarEditor.controlItems.empty();
-AvatarEditor.quickUpload = new function() {};
+AvatarEditor.controlItems = null;
+AvatarEditor.quickUpload = null;
 
 app.initializers.add('pnobbe/auth-discord', () => {
   extend(LogInButtons.prototype, 'items', function(items) {
