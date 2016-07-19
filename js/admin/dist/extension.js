@@ -50,15 +50,6 @@ System.register('pnobbe/auth-discord/components/DiscordSettingsModal', ['flarum/
                 app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.client_secret_label')
               ),
               m('input', { className: 'FormControl', bidi: this.setting('pnobbe-oauth-discord.app_secret') })
-            ), m(
-              'div',
-              { className: 'Form-group' },
-              m(
-                'label',
-                null,
-                app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.hosted_domain_label')
-              ),
-              m('input', { className: 'FormControl', bidi: this.setting('pnobbe-oauth-discord.app_domain') })
             )];
           }
         }]);

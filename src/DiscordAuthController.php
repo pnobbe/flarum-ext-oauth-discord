@@ -33,10 +33,7 @@ class DiscordAuthController extends AbstractOAuth2Controller
         return new Discord([
             'clientId'        => $this->settings->get('pnobbe-oauth-discord.app_id'),
             'clientSecret'    => $this->settings->get('pnobbe-oauth-discord.app_secret'),
-            'redirectUri'     => $redirectUri,
-            'approvalPrompt'  => 'force',
-            'hostedDomain'    => $this->settings->get('pnobbe-oauth-discord.app_domain'),
-            'accessType'      => 'offline'
+            'redirectUri'     => $redirectUri
         ]);
     }
 
@@ -45,12 +42,8 @@ class DiscordAuthController extends AbstractOAuth2Controller
      */
     protected function getAuthorizationUrlOptions()
     {
-        return [
-            'scope' =>
-                [
-                    'email'
-                ]
-        ];    }
+        return ['scope' => ['email']];
+    }
 
     /**
      * {@inheritdoc}

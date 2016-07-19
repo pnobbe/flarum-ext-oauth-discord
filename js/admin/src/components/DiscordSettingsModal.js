@@ -21,11 +21,6 @@ export default class DiscordSettingsModal extends SettingsModal {
         <label>{app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.client_secret_label')}</label>
         <input className="FormControl" bidi={this.setting('pnobbe-oauth-discord.app_secret')}/>
       </div>,
-
-      <div className="Form-group">
-        <label>{app.translator.trans('pnobbe-oauth-discord.admin.discord_settings.hosted_domain_label')}</label>
-        <input className="FormControl" bidi={this.setting('pnobbe-oauth-discord.app_domain')}/>
-      </div>
     ];
   }
 }
