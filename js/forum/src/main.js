@@ -2,12 +2,6 @@ import { extend } from 'flarum/extend';
 import app from 'flarum/app';
 import LogInButtons from 'flarum/components/LogInButtons';
 import LogInButton from 'flarum/components/LogInButton';
-import AvatarEditor from 'flarum/components/AvatarEditor';
-import SignUpModal from 'flarum/components/SignUpModal';
-
-
-AvatarEditor.controlItems = null;
-AvatarEditor.quickUpload = null;
 
 app.initializers.add('pnobbe/auth-discord', () => {
   extend(LogInButtons.prototype, 'items', function(items) {

@@ -324,12 +324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "20c19dd91fb55fb5960454bb6038ff2a7138cdbf"
+                "reference": "670d814b6c8b5e8f39a2764d090463d39b3502c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/20c19dd91fb55fb5960454bb6038ff2a7138cdbf",
-                "reference": "20c19dd91fb55fb5960454bb6038ff2a7138cdbf",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/670d814b6c8b5e8f39a2764d090463d39b3502c9",
+                "reference": "670d814b6c8b5e8f39a2764d090463d39b3502c9",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2016-07-07 01:38:48"
+            "time": "2016-07-20 15:39:51"
         },
         {
             "name": "doctrine/dbal",
@@ -397,12 +397,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "272b87213e0203bdf2f438102aed2c7b2919aadf"
+                "reference": "45939c61df532608c67a92733b7cd1e64455abc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/272b87213e0203bdf2f438102aed2c7b2919aadf",
-                "reference": "272b87213e0203bdf2f438102aed2c7b2919aadf",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/45939c61df532608c67a92733b7cd1e64455abc1",
+                "reference": "45939c61df532608c67a92733b7cd1e64455abc1",
                 "shasum": ""
             },
             "require": {
@@ -460,7 +460,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2016-07-15 21:22:59"
+            "time": "2016-07-20 13:35:22"
         },
         {
             "name": "doctrine/inflector",
@@ -763,12 +763,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427"
+                "reference": "158c17127299b183d4b9784d7385bb29fe2f5982"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/3f808fba627f2c5b69e2501217bf31af349c1427",
-                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/158c17127299b183d4b9784d7385bb29fe2f5982",
+                "reference": "158c17127299b183d4b9784d7385bb29fe2f5982",
                 "shasum": ""
             },
             "require": {
@@ -817,7 +817,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-07-15 17:22:37"
+            "time": "2016-07-21 20:48:12"
         },
         {
             "name": "guzzlehttp/promises",
@@ -876,12 +876,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "bf357011d0693d610171c73ce3e4b494ab6e29cc"
+                "reference": "682d637bec5dd750bba5568e980888a639d7c35b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/bf357011d0693d610171c73ce3e4b494ab6e29cc",
-                "reference": "bf357011d0693d610171c73ce3e4b494ab6e29cc",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/682d637bec5dd750bba5568e980888a639d7c35b",
+                "reference": "682d637bec5dd750bba5568e980888a639d7c35b",
                 "shasum": ""
             },
             "require": {
@@ -933,7 +933,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2016-07-08 22:34:56"
+            "time": "2016-07-21 23:46:37"
         },
         {
             "name": "illuminate/bus",
@@ -1775,12 +1775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "a76afa4035931be0c78ca8efc6abf3902362f437"
+                "reference": "68e51f2b8502065eeb5bbe38e2f9445f9a4c804e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a76afa4035931be0c78ca8efc6abf3902362f437",
-                "reference": "a76afa4035931be0c78ca8efc6abf3902362f437",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/68e51f2b8502065eeb5bbe38e2f9445f9a4c804e",
+                "reference": "68e51f2b8502065eeb5bbe38e2f9445f9a4c804e",
                 "shasum": ""
             },
             "require": {
@@ -1850,7 +1850,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-07-18 12:22:57"
+            "time": "2016-07-21 09:35:56"
         },
         {
             "name": "league/oauth2-client",
@@ -2306,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "63244a3bc4ce94116582c9ad2e064aff4cb4dd24"
+                "reference": "1ae6ba471104a9b7a1861d25a026aaeb74e89dcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/63244a3bc4ce94116582c9ad2e064aff4cb4dd24",
-                "reference": "63244a3bc4ce94116582c9ad2e064aff4cb4dd24",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/1ae6ba471104a9b7a1861d25a026aaeb74e89dcf",
+                "reference": "1ae6ba471104a9b7a1861d25a026aaeb74e89dcf",
                 "shasum": ""
             },
             "require": {
@@ -2351,7 +2351,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-07-19 15:41:04"
+            "time": "2016-07-23 23:22:19"
         },
         {
             "name": "psr/http-message",

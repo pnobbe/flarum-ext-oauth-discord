@@ -5,7 +5,7 @@ namespace pnobbe\Auth\Discord;
 use Flarum\Forum\AuthenticationResponseFactory;
 use Flarum\Forum\Controller\AbstractOAuth2Controller;
 use Flarum\Settings\SettingsRepositoryInterface;
-use League\OAuth2\Client\Provider\Discord;
+use pnobbe\Discord;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 
 class DiscordAuthController extends AbstractOAuth2Controller
@@ -61,8 +61,8 @@ class DiscordAuthController extends AbstractOAuth2Controller
     protected function getSuggestions(ResourceOwnerInterface $resourceOwner)
     {
         return [
-            'username' => $resourceOwner->getNickname(),
-            'avatarUrl' => $resourceOwner->getPictureUrl()
+            'username' => $resourceOwner->getUsername(),
+            'avatarUrl' => $resourceOwner->getAvatar()
         ];
     }
 }

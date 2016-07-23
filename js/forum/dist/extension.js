@@ -1,9 +1,9 @@
 'use strict';
 
-System.register('pnobbe/auth-discord/main', ['flarum/extend', 'flarum/app', 'flarum/components/LogInButtons', 'flarum/components/LogInButton', 'flarum/components/AvatarEditor', 'flarum/components/SignUpModal'], function (_export, _context) {
+System.register('pnobbe/auth-discord/main', ['flarum/extend', 'flarum/app', 'flarum/components/LogInButtons', 'flarum/components/LogInButton'], function (_export, _context) {
   "use strict";
 
-  var extend, app, LogInButtons, LogInButton, AvatarEditor, SignUpModal;
+  var extend, app, LogInButtons, LogInButton;
   return {
     setters: [function (_flarumExtend) {
       extend = _flarumExtend.extend;
@@ -13,15 +13,8 @@ System.register('pnobbe/auth-discord/main', ['flarum/extend', 'flarum/app', 'fla
       LogInButtons = _flarumComponentsLogInButtons.default;
     }, function (_flarumComponentsLogInButton) {
       LogInButton = _flarumComponentsLogInButton.default;
-    }, function (_flarumComponentsAvatarEditor) {
-      AvatarEditor = _flarumComponentsAvatarEditor.default;
-    }, function (_flarumComponentsSignUpModal) {
-      SignUpModal = _flarumComponentsSignUpModal.default;
     }],
     execute: function () {
-
-      AvatarEditor.controlItems = null;
-      AvatarEditor.quickUpload = null;
 
       app.initializers.add('pnobbe/auth-discord', function () {
         extend(LogInButtons.prototype, 'items', function (items) {
