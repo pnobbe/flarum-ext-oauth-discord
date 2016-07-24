@@ -5,7 +5,7 @@ namespace pnobbe\Auth\Discord;
 use Flarum\Forum\AuthenticationResponseFactory;
 use Flarum\Forum\Controller\AbstractOAuth2Controller;
 use Flarum\Settings\SettingsRepositoryInterface;
-use pnobbe\OAuth2\Client\Discord;
+use pnobbe\OAuth2\Client\Provider\Discord;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 
 class DiscordAuthController extends AbstractOAuth2Controller
