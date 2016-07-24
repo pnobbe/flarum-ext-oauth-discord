@@ -2306,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "4280dda9625c3bfda986ba60d4725ac1772e33af"
+                "reference": "78ab5420b4a00b48dd0c17123a748fb6f21fd2ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/4280dda9625c3bfda986ba60d4725ac1772e33af",
-                "reference": "4280dda9625c3bfda986ba60d4725ac1772e33af",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/78ab5420b4a00b48dd0c17123a748fb6f21fd2ac",
+                "reference": "78ab5420b4a00b48dd0c17123a748fb6f21fd2ac",
                 "shasum": ""
             },
             "require": {
@@ -2351,7 +2351,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-07-24 00:30:01"
+            "time": "2016-07-24 00:35:24"
         },
         {
             "name": "psr/http-message",
