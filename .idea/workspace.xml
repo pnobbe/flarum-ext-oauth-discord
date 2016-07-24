@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/DiscordAuthController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+              <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
               <folding>
                 <element signature="e#39#86#0#PHP" expanded="true" />
               </folding>
@@ -406,12 +406,12 @@
       <workItem from="1468854172327" duration="26000" />
       <workItem from="1468854204203" duration="262000" />
       <workItem from="1469313422472" duration="2604000" />
-      <workItem from="1469317009440" duration="4840000" />
+      <workItem from="1469317009440" duration="4986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33699000" />
+    <option name="totallyTimeSpent" value="33845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
@@ -851,7 +851,7 @@
     <entry file="file://$PROJECT_DIR$/src/DiscordAuthController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
           <folding>
             <element signature="e#39#86#0#PHP" expanded="true" />
           </folding>
