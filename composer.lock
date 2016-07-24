@@ -2306,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "1ae6ba471104a9b7a1861d25a026aaeb74e89dcf"
+                "reference": "4280dda9625c3bfda986ba60d4725ac1772e33af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/1ae6ba471104a9b7a1861d25a026aaeb74e89dcf",
-                "reference": "1ae6ba471104a9b7a1861d25a026aaeb74e89dcf",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/4280dda9625c3bfda986ba60d4725ac1772e33af",
+                "reference": "4280dda9625c3bfda986ba60d4725ac1772e33af",
                 "shasum": ""
             },
             "require": {
@@ -2331,7 +2331,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\OAuth2\\Client\\": "src/"
+                    "pnobbe\\OAuth2\\Client\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2351,7 +2351,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-07-23 23:22:19"
+            "time": "2016-07-24 00:30:01"
         },
         {
             "name": "psr/http-message",

@@ -13,4 +13,8 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/js/admin/src/components/DiscordSettingsModal.js" />
+    <file url="file://$PROJECT_DIR$/js/forum/src/main.js" />
+  </component>
 </project>
