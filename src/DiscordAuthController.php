@@ -31,9 +31,9 @@ class DiscordAuthController extends AbstractOAuth2Controller
     protected function getProvider($redirectUri)
     {
         return new Discord([
-            'clientId'        => $this->settings->get('pnobbe-oauth-discord.app_id'),
-            'clientSecret'    => $this->settings->get('pnobbe-oauth-discord.app_secret'),
-            'redirectUri'     => $redirectUri
+            'clientId' => $this->settings->get('pnobbe-oauth-discord.app_id'),
+            'clientSecret' => $this->settings->get('pnobbe-oauth-discord.app_secret'),
+            'redirectUri' => $redirectUri
         ]);
     }
 
@@ -42,7 +42,9 @@ class DiscordAuthController extends AbstractOAuth2Controller
      */
     protected function getAuthorizationUrlOptions()
     {
-        return ['scope' => ['email']];
+        return ['scope' => ['email', // The same as identify but with email
+            'identify' // Allows you to retrieve user data (except for email)
+        ]];
     }
 
     /**
@@ -52,7 +54,6 @@ class DiscordAuthController extends AbstractOAuth2Controller
     {
         return [
             'email' => $resourceOwner->getEmail(),
-            'username' => $resourceOwner->getUsername()
         ];
     }
 
@@ -62,9 +63,9 @@ class DiscordAuthController extends AbstractOAuth2Controller
     protected function getSuggestions(ResourceOwnerInterface $resourceOwner)
     {
         return [
-            'email' => $resourceOwner->getEmail(),
             'username' => $resourceOwner->getUsername(),
             'avatarUrl' => $resourceOwner->getAvatar()
         ];
     }
 }
+    

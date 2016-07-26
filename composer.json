@@ -4,7 +4,7 @@
     "type": "flarum-extension",
     "keywords": ["authentication"],
     "license": "GPL-3.0+",
-    "version": "v0.1",
+    "version": "v1.0",
     "minimum-stability": "dev",
     "authors": [
         {
@@ -30,7 +30,7 @@
             "title": "Discord Login",
             "icon": {
                 "name": "discord",
-                "backgroundColor": "#D13E32",
+                "backgroundColor": "#738bd7",
                 "color": "#fff"
             }
         }
