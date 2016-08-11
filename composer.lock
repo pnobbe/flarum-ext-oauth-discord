@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "432fcb2cc651987d191bf5f8fefe525a",
-    "content-hash": "ebc98dc011339e8bc91b7b07028ef818",
+    "hash": "c4d53075b1fd47777ac141772ff4ebb4",
+    "content-hash": "cb232fb138d4f0279b4903df64e78f38",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -2289,16 +2289,16 @@
         },
         {
             "name": "pnobbe/oauth2-discord",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pnobbe/oauth2-discord.git",
-                "reference": "25d253b86534ec118c4e11ebf43f190385ec19ae"
+                "reference": "ef9267325f690070a3ca3a8bbea44ba6d5314d0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/25d253b86534ec118c4e11ebf43f190385ec19ae",
-                "reference": "25d253b86534ec118c4e11ebf43f190385ec19ae",
+                "url": "https://api.github.com/repos/pnobbe/oauth2-discord/zipball/ef9267325f690070a3ca3a8bbea44ba6d5314d0a",
+                "reference": "ef9267325f690070a3ca3a8bbea44ba6d5314d0a",
                 "shasum": ""
             },
             "require": {
@@ -2328,7 +2328,7 @@
                     "homepage": "https://github.com/pnobbe"
                 }
             ],
-            "description": "Discord OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "description": "Discord OAuth 2.0 Client Provider for The PHP League OAuth2-Client - Revisioned from Teamreflex's Discord Provider",
             "keywords": [
                 "authorisation",
                 "authorization",
@@ -2337,7 +2337,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-07-24 00:53:17"
+            "time": "2016-08-11 13:42:40"
         },
         {
             "name": "psr/http-message",
@@ -3134,8 +3134,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "flarum/core": 10,
-        "pnobbe/oauth2-discord": 20
+        "flarum/core": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,

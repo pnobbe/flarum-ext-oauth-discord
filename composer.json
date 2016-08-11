@@ -18,7 +18,7 @@
     },
     "require": {
         "flarum/core": "v0.1.0-beta.5",
-        "pnobbe/oauth2-discord": "^1.0@dev"
+        "pnobbe/oauth2-discord": "v1.0"
     },
     "autoload": {
         "psr-4": {
