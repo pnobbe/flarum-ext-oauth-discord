@@ -17,7 +17,7 @@
         "source": "https://github.com/pnobbe/flarum-ext-oauth-discord"
     },
     "require": {
-        "flarum/core": "v0.1.0-beta.5",
+        "flarum/core": "v0.1.0-beta.6",
         "pnobbe/oauth2-discord": "v1.0"
     },
     "autoload": {
