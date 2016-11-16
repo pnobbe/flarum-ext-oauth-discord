@@ -42,7 +42,8 @@ class DiscordAuthController extends AbstractOAuth2Controller
      */
     protected function getAuthorizationUrlOptions()
     {
-        return ['scope' => ['email', // The same as identify but with email
+        return ['scope' => [
+            'email', // The same as identify but with email
             'identify' // Allows you to retrieve user data (except for email)
         ]];
     }
