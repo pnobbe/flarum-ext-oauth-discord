@@ -4,9 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c4d53075b1fd47777ac141772ff4ebb4",
-    "content-hash": "cb232fb138d4f0279b4903df64e78f38",
+    "hash": "1c18c4044390b8a5eb4ab8419b372ec6",
+    "content-hash": "358f410c2492dd85b73d482a3a7a0f98",
     "packages": [
+        {
+            "name": "components/font-awesome",
+            "version": "4.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/font-awesome.git",
+                "reference": "885308b939369d147bec93174722786bc2c4eedd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/885308b939369d147bec93174722786bc2c4eedd",
+                "reference": "885308b939369d147bec93174722786bc2c4eedd",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "styles": [
+                        "css/font-awesome.css"
+                    ],
+                    "files": [
+                        "css/font-awesome.min.css",
+                        "css/font-awesome.css.map",
+                        "fonts/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "OFL-1.1"
+            ],
+            "description": "The iconic font designed for use with Twitter Bootstrap.",
+            "time": "2016-10-25 10:56:23"
+        },
         {
             "name": "danielstjules/stringy",
             "version": "1.10.0",
@@ -586,37 +621,40 @@
         },
         {
             "name": "filp/whoops",
-            "version": "1.1.10",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "72538eeb70bbfb11964412a3d098d109efd012f7"
+                "reference": "3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/72538eeb70bbfb11964412a3d098d109efd012f7",
-                "reference": "72538eeb70bbfb11964412a3d098d109efd012f7",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa",
+                "reference": "3f5cbd0e6a2fc17bc40b0238025ef1ff4c8c3efa",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^5.5.9 || ^7.0"
             },
             "require-dev": {
-                "mockery/mockery": "0.9.*"
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "^4.8 || ^5.0",
+                "symfony/var-dumper": "^2.6 || ^3.0"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+                "whoops/soap": "Formats errors as SOAP responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Whoops": "src/"
-                },
-                "classmap": [
-                    "src/deprecated"
-                ]
+                "psr-4": {
+                    "Whoops\\": "src/Whoops/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -630,36 +668,36 @@
                 }
             ],
             "description": "php error handling for cool kids",
-            "homepage": "https://github.com/filp/whoops",
+            "homepage": "https://filp.github.io/whoops/",
             "keywords": [
                 "error",
                 "exception",
                 "handling",
                 "library",
-                "silex-provider",
                 "whoops",
                 "zf2"
             ],
-            "time": "2015-06-29 05:42:04"
+            "time": "2016-10-11 15:32:23"
         },
         {
             "name": "flarum/core",
-            "version": "v0.1.0-beta.5",
+            "version": "v0.1.0-beta.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/core.git",
-                "reference": "d1c25a4bad129792307a687a7f541b9d445a3156"
+                "reference": "46bb66dd946249a2cedf6505af20682d8eb47975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/core/zipball/d1c25a4bad129792307a687a7f541b9d445a3156",
-                "reference": "d1c25a4bad129792307a687a7f541b9d445a3156",
+                "url": "https://api.github.com/repos/flarum/core/zipball/46bb66dd946249a2cedf6505af20682d8eb47975",
+                "reference": "46bb66dd946249a2cedf6505af20682d8eb47975",
                 "shasum": ""
             },
             "require": {
-                "dflydev/fig-cookies": "^1.0",
+                "components/font-awesome": "^4.6",
+                "dflydev/fig-cookies": "^1.0.2",
                 "doctrine/dbal": "^2.5",
-                "franzl/whoops-middleware": "^0.2.0",
+                "franzl/whoops-middleware": "^0.4.0",
                 "illuminate/bus": "5.1.*",
                 "illuminate/cache": "5.1.*",
                 "illuminate/config": "5.1.*",
@@ -682,12 +720,12 @@
                 "oyejorge/less.php": "~1.5",
                 "php": ">=5.5.9",
                 "psr/http-message": "^1.0",
-                "s9e/text-formatter": "^0.4.12",
+                "s9e/text-formatter": "^0.6.1",
                 "symfony/console": "^2.7",
                 "symfony/http-foundation": "^2.7",
                 "symfony/translation": "^2.7",
                 "symfony/yaml": "^2.7",
-                "tobscure/json-api": "^0.2.0",
+                "tobscure/json-api": "^0.3.0",
                 "zendframework/zend-diactoros": "^1.1",
                 "zendframework/zend-stratigility": "^1.1"
             },
@@ -729,25 +767,28 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2016-03-29 07:54:23"
+            "time": "2016-10-19 10:41:30"
         },
         {
             "name": "franzl/whoops-middleware",
-            "version": "0.2.0",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/franzliedke/whoops-middleware.git",
-                "reference": "b7630ee687a6f49192b6b56d4795d36000120cd7"
+                "reference": "625a80d90b22c38d8a9372187e76ae5f844e4412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/franzliedke/whoops-middleware/zipball/b7630ee687a6f49192b6b56d4795d36000120cd7",
-                "reference": "b7630ee687a6f49192b6b56d4795d36000120cd7",
+                "url": "https://api.github.com/repos/franzliedke/whoops-middleware/zipball/625a80d90b22c38d8a9372187e76ae5f844e4412",
+                "reference": "625a80d90b22c38d8a9372187e76ae5f844e4412",
                 "shasum": ""
             },
             "require": {
-                "filp/whoops": "^1.1",
-                "zendframework/zend-diactoros": "^1.1@dev"
+                "filp/whoops": "^1.1 || ^2.0",
+                "zendframework/zend-diactoros": "^1.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.0.*"
             },
             "type": "library",
             "autoload": {
@@ -756,7 +797,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2015-10-31 11:25:43"
+            "time": "2016-04-27 14:08:29"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -2496,16 +2537,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "0.4.12",
+            "version": "0.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "7033b824b2ea06046f98420f250d5db84c695288"
+                "reference": "99d6b5799387dddfdd00b5a76bb83a15dda586e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/7033b824b2ea06046f98420f250d5db84c695288",
-                "reference": "7033b824b2ea06046f98420f250d5db84c695288",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/99d6b5799387dddfdd00b5a76bb83a15dda586e3",
+                "reference": "99d6b5799387dddfdd00b5a76bb83a15dda586e3",
                 "shasum": ""
             },
             "require": {
@@ -2552,7 +2593,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2016-03-20 10:22:44"
+            "time": "2016-08-09 14:16:45"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3003,23 +3044,23 @@
         },
         {
             "name": "tobscure/json-api",
-            "version": "v0.2.1",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tobscure/json-api.git",
-                "reference": "1e5a14d368746d6c9bb769f63ada5a31c94c1d15"
+                "reference": "663d1c1299d4363758e8e440e5849134f218f45c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tobscure/json-api/zipball/1e5a14d368746d6c9bb769f63ada5a31c94c1d15",
-                "reference": "1e5a14d368746d6c9bb769f63ada5a31c94c1d15",
+                "url": "https://api.github.com/repos/tobscure/json-api/zipball/663d1c1299d4363758e8e440e5849134f218f45c",
+                "reference": "663d1c1299d4363758e8e440e5849134f218f45c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.0"
+                "phpunit/phpunit": "^4.8 || ^5.0"
             },
             "type": "library",
             "extra": {
@@ -3049,7 +3090,7 @@
                 "jsonapi",
                 "standard"
             ],
-            "time": "2015-11-02 12:50:22"
+            "time": "2016-03-31 09:25:28"
         },
         {
             "name": "zendframework/zend-diactoros",
