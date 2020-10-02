@@ -14,7 +14,7 @@ composer require pnobbe/flarum-ext-oauth-discord
 ### Setting up Discord OAuth 2.0
 Follow these instruction to generate your applications *Client ID* and *Client Secret*
 
-https://discordapp.com/developers/docs/topics/oauth2
+https://discord.com/developers/docs/topics/oauth2
 
 
 
